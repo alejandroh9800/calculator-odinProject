@@ -80,6 +80,7 @@ html{
 
 .why{
     color: aliceblue;
+    text-align: center;
 }
   
   @keyframes blinker {
