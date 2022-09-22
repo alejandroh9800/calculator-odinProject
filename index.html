@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator_center">
+    <div class="calculator_container">
+        <div class="calculator_name">CALC-U-LATER</div>
+        <div class="calculator_input">|</div>
+        <div class="calculator_buttons">
+            <div class="special" id="inverse">+/-</div>
+            <div class="special" id="AC">AC</div>
+            <div class="special" id="DEL">DEL</div>
+            <div class="operation decimal" data-opera="." id="decimalP">.</div>
+            <div class="operation enabled add" data-opera="+">+</div>
+            <div class="operation enabled subtract" data-opera="-">-</div>
+            <div class="operation enabled divide" data-opera="/">/</div>
+            <div class="operation enabled multiply" data-opera="*">*</div>
+            <div id="9" class="number">9</div>
+            <div id="8" class="number">8</div>
+            <div id="7" class="number">7</div>
+            <div id="6" class="number">6</div>
+            <div id="5" class="number">5</div>
+            <div id="4" class="number">4</div>
+            <div id="3" class="number">3</div>
+            <div id="2" class="number">2</div>
+            <div id="1" class="number">1</div>
+            <div id="0" class="number">0</div>
+            <div class="enter">ENTER</div>
+        </div>
+    </div>
+    <div class="why">
+    <h3>Keyboard Shortcuts</h3>
+    <div class="shortcuts">
+    <ul>"Shift" = +/- (Switch Sign)</ul>
+    <ul>"C" = AC (All Clear)</ul>
+    <ul>"0-9" = Enter Numbers</ul>
+    <ul>"." = Decimal Point</ul>
+    <ul>"Delete/Backspace" = Delete number(s)</ul>
+    </div>
+</div>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>
